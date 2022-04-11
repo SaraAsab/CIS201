@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SI COFFEE</title>
+
+
+    <link rel="stylesheet" href="css-reset.css">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="SI Logo.png" alt="Logo for SI" width="50" height="50"
+                    >
+                </a>
+            </div>
+
+            <nav>
+              <div class="navbutton">
+                  <a href="index.html">Home</a>
+
+                  </div>
+
+              <div class="navbutton">
+                  <a href="#">Menu</a>
+
+                  </div>
+
+
+
+
+                <div class="navbutton">
+                    <a href="About us.html">About Us</a>
+                </div>
+
+                <div class="navbutton">
+                    <a href="Contact us.html">Conact Us</a>
+                </div>
+
+
+            </nav>
+        </header>
+        <h1>Contact Us</h1>
+        <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+
+        <form action="mail.php" method="post">
+
+            <div class="inputwrapper">
+                <label for="name" class="newline" class="newline" >First Name</label>
+                <input type="text" name="name" id="name" placeholder="First Name">
+            </div>
+
+            <div class="inputwrapper">
+                <label for="email" class="newline">Email</label>
+                <input type="email" name="email" id="email" placeholder="sara@sample.com">
+            </div>
+
+            <div class="inputwrapper">
+                <textarea name="message" id="message" cols="100" rows="5" placeholder="Let us know what you think"></textarea>
+            </div>
+
+
+
+            <div class="inputwrapper">
+
+                <p>How would you like to be contacted?</p>
+                <input type="radio" name="contact-pref" id="phone" value="phone">
+                <label for="phone" class="margin-right-a">Phone</label>
+
+                <input type="radio" name="contact-pref" id="email2" value="Email">
+                <label for="email2">Email</label>
+
+            </div>
+            <input type="submit" value="SEND" class="mybutton">
+
+        </form>
+
+      </body>
